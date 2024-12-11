@@ -1,0 +1,177 @@
+/* File: navbar.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.warrper {
+    background: url('https://bizweb.dktcdn.net/100/438/408/themes/950002/assets/background-header.png?1717476577406') no-repeat center center;
+    background-size: cover;
+    padding: 20px 0;
+    box-shadow:  0px 0px 3px rgb(214, 214, 214);
+}
+.atricle{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+.search i{
+    height: 26px;
+    width: 30px;
+    background-color: #fcaf17;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    float: right;
+    margin-left: -10px;
+    border-radius: 0 5px 5px 0;
+}
+.container img {
+    height: 60px;
+    width: 150px;
+}
+
+.container input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.container i {
+    margin-right: 10px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin-right: 20px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin-top: 15px;
+}
+
+.gio_hang i, .account i {
+    margin-right: 5px;
+}
+
+.account a {
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.account a:hover {
+    text-decoration: underline;
+}
+.free{
+    font-size: 15px;
+    background-color: #fcaf17;
+    width: 50px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-radius: 30%;
+}
+.imgstyle{
+    max-width: 70%;
+    margin: 0 auto;
+}
+.imgstyle > img{
+    width: 100%;
+    height: 379px;
+}
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    max-width: 70%;
+    margin: 0 auto;
+    
+}
+.logo > img{
+    width: 100%;
+    height: 279px;
+}
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* căn giữa nội dung trong container */
+    margin: 10px;
+}
+
+.product_item {
+    margin: 10px; /* Khoảng cách giữa các sản phẩm */
+    transition: transform 1s ease;
+}
+
+.product img {
+    width: 80px;
+    margin: 30px;
+    display: block; /* Hiển thị hình ảnh dưới dạng block để nó xuống dòng */
+    transition: transform 1s ease;
+    border-radius: 100%;
+}
+
+.product > .product_item > p {
+   font-size: 15px;
+    display: block; /* Hiển thị chú thích dưới dạng block, khiến nó xuống dòng */
+    color: rgb(104, 104, 230);
+    font-weight: 400;
+    transition: transform 1s ease;
+}
+.product_item:hover > p{
+    transform: translateY(-10px);
+    color: #fcaf17;
+    
+}
+.product img:hover {
+    transform: translateY(-10px);
+    box-shadow: 5px 5px 10px rgb(202, 201, 201);
+}
+
+

@@ -1,0 +1,103 @@
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h1.wraper {
+    text-align: center;
+    color: #333;
+  }
+
+  /* Horizontal Rule with Text */
+  .hr-with-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .hr-with-text hr {
+    flex: 1;
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 0 10px;
+  }
+
+  .span_iphone {
+    white-space: nowrap;
+    font-size: 1.2em;
+    color: #666;
+  }
+
+  /* Product Wrapper */
+  .product_warper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .pro_items {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+    transition: transform 0.3s;
+  }
+
+  .pro_items:hover {
+    transform: scale(1.05);
+  }
+
+  .pro_items img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .pro_name a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1em;
+    display: block;
+    margin: 10px 0;
+  }
+
+  .pro_name a:hover {
+    color: #007BFF;
+  }
+
+  .price {
+    color: #E74C3C;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .xemthem {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .xemthem h2 {
+    font-size: 1.5em;
+    color: #007BFF;
+    cursor: pointer;
+  }
+
+  .xemthem h2:hover {
+    text-decoration: underline;
+  }

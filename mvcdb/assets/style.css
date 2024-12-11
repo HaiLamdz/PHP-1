@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+}
+body{
+    margin-top: 50px;
+    max-width: 80%;
+}
+.title{
+    text-transform: uppercase;
+    border: 1px  solid black;
+    border-bottom: 0;
+    background-color: aqua;
+}
+nav{
+    margin-top: 10px;
+    background-color: black;
+    width: 100%;
+    height: 20px;
+}
+nav > ul > li{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: white;
+}
+.content{
+    display: flex;
+    margin-top: 10px;
+}
+.atricle{
+    width:73%;
+    margin-right: 10px;
+}
+.atricle > .banner > img{
+    width: 100%;
+    height: 260px;
+}
+.atricle > .product > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+.atricle > .product > ul > li{
+    flex-basis: 33%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+.atricle > .product > ul > li > .product_img > img{
+    max-width: 100%;
+    height: auto;
+}
+.atricle > .product > ul > li > .product_name{
+    text-align: center;
+    font-weight: 600;
+}
+.atricle > .product > ul > li > .product_price{
+    text-align: center;
+    font-weight: 600;
+    color: red;
+}
+.sidebar {
+    width: 25%;
+    background-color: rgb(249, 249, 249);
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    border-radius: 5%;
+    height: 300px;
+}
+.sidebar > .form_login{
+    width: 90%;
+    height: 350px;
+}
+h4{
+    border-radius: 5%;
+    background-color: rgb(199, 195, 195);
+}
+.sidebar > .list{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(223, 222, 222);
+}
+.sidebar > .list > .list_item{
+    width: 80%;
+}
+.sidebar > .list > .list_item > span{
+    margin: 10px;
+    line-height: 1.5;
+    font-weight: none;
+}
+.sidebar > .search{
+    margin-top: 10px;
+}
+
+.sidebar > .product_flash{
+    margin-top: 10px;
+}
+
+.sidebar > .product_flash > .list_product_flash > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+/* .sidebar > .product_flash > ul > li{
+    flex-basis: 33%;
+    padding-left: 15px;
+    padding-right: 15px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+} */
+/* .sidebar > .product_flash > .list_product_flash  > ul > li > .img > img{
+    width: 15%;
+    height: auto;
+} */
+/* .list_product_flash ul {
+    display: flex;
+    flex-wrap: nowrap; /* Hoặc sử dụng wrap nếu muốn chúng tự động xuống dòng khi không đủ chỗ */
+    /* list-style: none;
+    padding: 0;
+    margin: 0;
+} */ 
+
+.list_product_flash li {
+    margin-right: 20px; /* Điều chỉnh khoảng cách giữa các sản phẩm */
+    flex: 0 0 auto; /* Ngăn các mục kéo giãn */
+}
+
+.list_product_flash .img {
+    width: 100px; /* Điều chỉnh kích thước theo ý muốn */
+    height: 100px; /* Điều chỉnh kích thước theo ý muốn */
+    overflow: hidden; /* Ẩn phần tràn */
+}
+
+.list_product_flash .img img {
+    width: 100%;
+    height: auto; /* Duy trì tỷ lệ khung hình */
+}
+
+.list_product_flash .name {
+    text-align: center; /* Căn giữa văn bản */
+    margin-top: 10px; /* Điều chỉnh khoảng cách giữa ảnh và tên sản phẩm */
+}
